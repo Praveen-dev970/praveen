@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Buyers - FreshCatch Seafood Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FreshCatch Seafood Delivery</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="buyers.html" class="active">Buyers</a></li>
+                <li><a href="sellers.html">Sellers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#" class="signup-btn">Sign Up</a></li>
+                <li><a href="#" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="buyers-page">
+        <section class="buyer-info">
+            <h1>For Hotels & Event Organizers</h1>
+            <div class="info-cards">
+                <div class="info-card">
+                    <h2>How It Works</h2>
+                    <ol>
+                        <li>Create your buyer account</li>
+                        <li>Browse our fresh seafood selection</li>
+                        <li>Place your order with delivery details</li>
+                        <li>Receive your fresh catch within 24 hours</li>
+                        <li>Track your order in real-time</li>
+                    </ol>
+                </div>
+                <div class="info-card benefits">
+                    <h2>Why Choose FreshCatch</h2>
+                    <ul>
+                        <li>Direct from boat to your kitchen</li>
+                        <li>Competitive wholesale pricing</li>
+                        <li>Reliable next-day delivery</li>
+                        <li>Wide selection of premium seafood</li>
+                        <li>Quality guaranteed</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="auth-forms">
+            <div class="form-container signup-form">
+                <h2>Create Buyer Account</h2>
+                <form id="buyerSignup">
+                    <div class="form-group">
+                        <label for="buyerName">Full Name</label>
+                        <input type="text" id="buyerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyerEmail">Email</label>
+                        <input type="email" id="buyerEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyerPassword">Password</label>
+                        <input type="password" id="buyerPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessName">Hotel/Organization Name</label>
+                        <input type="text" id="businessName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyerPhone">Phone Number</label>
+                        <input type="tel" id="buyerPhone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyerAddress">Delivery Address</label>
+                        <textarea id="buyerAddress" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Create Account</button>
+                </form>
+            </div>
+
+            <div class="form-container login-form">
+                <h2>Buyer Login</h2>
+                <form id="buyerLogin">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" id="loginPassword" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+                    <p class="forgot-password"><a href="#">Forgot password?</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="contact-info">
+                <p>Email: info@freshcatch.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
